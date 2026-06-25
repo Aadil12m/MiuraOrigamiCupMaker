@@ -13,7 +13,7 @@ This script is specifically optimized for export to [Origami Simulator](https://
 *The generated pattern showing mountain (red), valley (blue), and boundary (black) folds.*
 
 ### Folding Simulation
-<video src="s1.mp4" controls width="100%"></video>
+![Folding Simulation](s1.gif)
 
 *A demonstration of the pattern collapsing into a cone shape using Origami Simulator.* *(Note: If the video does not autoplay or render in your markdown viewer, you can view the `s1.mp4` file directly in the repository).*
 
