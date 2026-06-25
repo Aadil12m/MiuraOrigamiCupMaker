@@ -9,7 +9,7 @@ This script is specifically optimized for export to [Origami Simulator](https://
 ##  Visual Examples
 
 ### The Crease Pattern
-![Miura-Ori Crease Pattern](s1.jpg)
+![Miura-Ori Crease Pattern](s1.png)
 *The generated pattern showing mountain (red), valley (blue), and boundary (black) folds.*
 
 ### Folding Simulation
