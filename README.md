@@ -1,12 +1,12 @@
 # Miura-Ori Cone Pattern Generator
 
-This repository contains a Python script (`miura_ori_maker.py`) that generates a scalable vector graphics (SVG) crease pattern for a curved Miura-ori structure[cite: 1]. The pattern maps a traditional flat Miura tessellation onto a polar coordinate system to create an origami shape that naturally folds into a cone or cup[cite: 1].
+This repository contains a Python script (`miura_ori_maker.py`) that generates a scalable vector graphics (SVG) crease pattern for a curved Miura-ori structure. The pattern maps a traditional flat Miura tessellation onto a polar coordinate system to create an origami shape that naturally folds into a cone or cup.
 
 This script is specifically optimized for export to [Origami Simulator](https://origamisimulator.org/), a physics-based origami folding simulation tool, but the output can also be printed and folded in real life.
 
 ---
 
-## 🚀 How to Use (Digital Simulation)
+##  How to Use (Digital Simulation)
 
 To visualize the folding process digitally, you can use the generated SVG file with Origami Simulator.
 
@@ -22,7 +22,7 @@ To visualize the folding process digitally, you can use the generated SVG file w
 
 ---
 
-## ✂️ How to Use (Real Life Physical Folding)
+##  How to Use (Real Life Physical Folding)
 
 You can use the output SVG to fold this structure using real paper.
 
@@ -34,7 +34,7 @@ You can use the output SVG to fold this structure using real paper.
 
 ---
 
-## 🎨 Line Color Legend
+##  Line Color Legend
 
 The script uses standard RGB hex codes recognized by Origami Simulator to dictate fold behavior[cite: 1]:
 
@@ -46,7 +46,7 @@ The script uses standard RGB hex codes recognized by Origami Simulator to dictat
 
 ---
 
-## ⚙️ How the Code Works
+##  How the Code Works
 
 The script operates by mapping a standard 2D grid into **polar coordinates**[cite: 1]. Instead of plotting points on a traditional Cartesian plane, it calculates an angle (`theta`) and a radius (`r`) for every vertex[cite: 1]. By shifting the radius slightly back and forth at alternating intersections with an `offset`, it creates the signature "zig-zag" pattern required for a rigid-foldable Miura-ori tessellation[cite: 1]. 
 
